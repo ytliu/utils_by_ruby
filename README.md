@@ -3,6 +3,8 @@ utils_by_ruby
 
 some utilities/tools using ruby language
 
+------
+
 #####apk_2_info.rb:
     
 get receiver/permission information from file processed by aapt tool on apk file
