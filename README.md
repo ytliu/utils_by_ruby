@@ -26,3 +26,15 @@ batch modify subtitle filename according to the audio/video filename
 batch unzip apk, decrypt manifest for the apk file
     
     $ ./parseApk.rb [unzip|decrypt]
+
+####decrypt_base64.rb:
+
+decrypt string encoded by Base64 schemes
+
+    $ ./decrypt_base64.rb [0|1] [str|file] [base64chars]
+
+####sendgmail.rb:
+
+sendgmail according to filename
+
+    $ ruby sendgmail pws filename
