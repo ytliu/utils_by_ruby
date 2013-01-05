@@ -21,8 +21,12 @@ def sendgmail(filename, username, password)
  end
 end
 
-username = 'mctrain016@gmail.com'
-password = ARGV[0]
-filename = ARGV[1]
+username = ARGV[0]
+password = ARGV[1]
+filename = ARGV[2]
+
+if ARGV.size < 3
+  puts "Usage: ruby #{$0} username pwd filename"
+end
 
 sendgmail(filename, username, password)

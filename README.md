@@ -37,4 +37,4 @@ decrypt string encoded by Base64 schemes
 
 sendgmail according to filename
 
-    $ ruby sendgmail pws filename
+    $ ruby sendgmail username pws filename
